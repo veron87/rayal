@@ -1,0 +1,96 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+
+.footer{
+   min-width: 1600px;
+   height: 411px;
+   background: #FCFCFD
+}
+
+
+.travel{
+
+   font-family:$secondary-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.8rem;
+   line-height: 150%;
+   color: #081F32;
+   max-width: 25.7rem;
+   margin-bottom: 3rem;
+
+}
+
+
+.email__com{
+   font-family: $secondary-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.6rem;
+   line-height: 160%;
+   letter-spacing: 0.06em;
+   color: #081F32
+}
+
+
+.footer__box{
+   
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;
+}
+.social__network {
+
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 1.8rem;
+}
+
+.home{
+
+   font-family: $secondary-font;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 2rem;
+   line-height: 150%;
+   color: #081F32;
+}
+
+
+.footer__link{
+
+   font-family: $secondary-font;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 1.6rem;
+   line-height: 150%;
+   color: $c-text;
+   margin-top: 2rem;
+   
+}
+
+
+.footer__list {
+  
+   display: flex;
+  flex-direction: column;
+  
+  &:hover{
+   background-color: $c-primary;
+   color:$c-text2;  
+}
+
+}
+
+.enter{
+
+   font-family: $secondary-font;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 2rem;
+   line-height: 150%;
+   color: $c-text;
+}

@@ -1,0 +1,91 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+.second-section{
+   position: relative;
+}
+
+.holiday-box{
+
+   position: absolute;
+   left: 0;
+   top: -50px;
+   background: rgba(255, 255, 255, 0.21);
+   backdrop-filter: blur(70px);
+   border-radius: 10px;
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   padding: 2.4rem 4.9rem;
+   min-width:68.7rem;
+   min-height:11rem;
+}
+
+.holiday-item{
+
+
+  
+   position: relative;
+
+}
+
+
+.holiday-item:before {
+   content: '';
+   position: absolute;
+   top: 1.6rem;
+   width: 2px;
+   height: 3.4rem;
+   background-color:#9DACB8;
+   margin-left: -3rem;
+   
+    
+   }
+
+   .holiday-item:first-child:before {
+      display: none;
+   }
+
+.holiday-item-text{
+   font-weight: 500;
+   font-family:$body-font ;
+   font-style: normal;
+   font-size: 1.6rem;
+   color:$c-text;
+   margin: 0 0 2rem;
+}
+
+.holiday-item-date{
+
+   font-family: $body-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.6rem;
+   line-height: 160%;
+   color: $c-text;
+}
+
+
+
+.button{
+   text-decoration: none;
+   display: inline-block;
+   background: $c-text2;
+   border-radius: 5px;
+   padding: 1.5rem 3rem;
+   font-family: $body-font;
+   font-style: normal;
+   font-size: 1.6rem;
+   color: $c-primary;
+   border: 2px solid $c-secondary; 
+   
+   
+   &:hover{
+      background-color: $c-primary;
+      color:$c-text2;
+      border: 2px solid $c-secondary;  
+
+   }
+
+  
+}

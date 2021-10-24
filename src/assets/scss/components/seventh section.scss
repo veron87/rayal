@@ -1,0 +1,38 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+
+.touch{
+
+   margin-top: 14rem;
+   text-align: center;
+   
+}
+
+
+.touc-text{
+   font-family: $body-font;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 2rem;
+   line-height: 150%;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   color: $c-text;
+   margin-bottom: 2rem;
+}
+
+
+.email{
+
+
+   font-family: $headers-font;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 3.2rem;
+   line-height: 140%;
+   text-align: center;
+   color: $c-text;
+   
+}
+

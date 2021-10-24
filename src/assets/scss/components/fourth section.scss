@@ -1,0 +1,75 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+.aside{
+   text-align: center;
+   margin-top: 23.5rem;
+   }
+
+.blockquote{
+   font-family: $headers-font;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 3.2rem;
+   line-height: 140%;
+   color: $c-text;
+   margin-bottom: 2.5rem;
+   
+}
+.desc{
+   font-family: $body-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.8rem;
+   line-height: 160%;
+   color:$c-text;
+   max-width: 81.9rem;
+   margin: 0 auto;
+}
+.square{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: 6rem 0 14rem;
+}
+
+
+.items{
+   
+   box-sizing: border-box;
+   border:solid  rgba(199, 199, 199, 0.25);
+   border-radius: 5px; 
+   width:262px;
+   height: 260px;  
+   text-align: center;
+}
+
+.item-img{
+   margin: 1.9rem 0 4rem;
+}
+
+.item__title{
+   font-family:$headers-font;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 2.4rem;
+   line-height: 150%;
+   text-align: center;
+   color: $c-text; 
+   margin-bottom: 1.5rem; 
+}
+
+.item__description{
+
+   font-family:body-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.8rem;
+   line-height: 160%;
+   text-align: center;
+   color: $c-text;
+   max-width:21rem;
+   margin: 0 1.7rem;
+   
+}
+

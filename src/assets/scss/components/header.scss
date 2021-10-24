@@ -1,0 +1,85 @@
+// для каждого компонента нужно импортить переменные, чтобы их использовать
+@import "../utils/parameters";
+@import "../utils/mixins";
+
+
+
+.header {
+   
+   position: absolute;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   right: 0;
+   
+}
+
+.logo {
+   margin-right: 12.8rem;
+}
+
+.header-row{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   
+ 
+   
+}
+
+.nav-list{
+   font-family: $headers-font;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 1.6rem;
+   line-height: 150%;
+   color: $c-text2;
+   
+}
+
+
+.nav-item{
+   font-family: $headers-font;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 1.6rem;
+   line-height: 150%;
+   color: $c-text;
+   margin-left: 4rem;
+
+   &:hover{
+      background-color: $c-primary;
+      color:$c-text2;
+      border: 2px solid $c-secondary;  
+
+   }
+}
+
+.search{
+
+   background:$c-text2;
+   border-radius: 0.5rem;
+   font-family: $headers-font;
+   font-size: 1.6rem;
+   line-height: 150%;
+   color: $c-primary;
+   margin-left: 31rem;
+   padding: 15px 30px;
+   border: 5px solid $c-secondary;
+
+   &:hover{
+      background-color: $c-primary;
+      color:$c-text2; 
+      border: 2px solid $c-secondary;   
+
+   }
+   
+   
+   
+}
+
+.enter{
+
+   margin-bottom: 12rem;
+}

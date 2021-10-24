@@ -1,0 +1,108 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+
+.pic{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      
+}
+
+
+.gallery{
+
+      font-family: $headers-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 3.2rem;
+      line-height: 140%;
+      color: $c-text;
+      margin: 4.7rem 0 2.5rem;
+}
+
+.subtitle{
+
+      font-family:$body-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.8rem;
+      line-height: 160%;
+      color:$c-text;
+      max-width: 43.9rem;
+      margin-bottom: 3rem;
+      
+}
+
+
+.lux-img{
+      position: relative;
+      z-index: 1;
+      border-radius: 10px;
+      padding-top: 3rem;
+}
+
+
+
+.background{
+      width:231px; 
+      height: 126px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      display: inline-block;
+      border-radius: 10px;
+}
+
+.item_lux{
+      
+      position: absolute;
+      display: inline-block;
+      border-radius: 10px;
+      bottom: 0;
+      left: 0;
+}
+
+.text-foto{
+      font-family: $headers-font;
+      font-style: medium;
+      font-size: 18px;
+      position: absolute;
+      top:2.3rem;
+      left: 2.8rem;
+      }
+
+
+.text-night{
+      position: absolute;
+      font-family: $body-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.4rem;
+      line-height: 160%;   
+      color: $c-text;
+      top: 2.3rem;
+      right:  2.8rem;
+      }
+
+.item__link{
+      position: absolute;
+      font-family: $headers-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.4rem;
+      line-height: 150%;
+      color: $c-primary;
+      background: $c-secondary;
+      border-radius: 5px;
+      padding: 1rem 2rem;
+      top: 6.2rem;
+      left: 2.8rem;
+
+      
+      &:hover{
+            background-color: $c-primary;
+            color:$c-text2;  
+         }
+      
+}

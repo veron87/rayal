@@ -1,0 +1,81 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+.first-section{
+   background-image: url("../imgs/img.jpg");
+   padding: 22rem 0 0;
+   min-height: 69rem;
+   background-size: cover;
+   position: relative;
+   
+   
+   
+     
+}
+
+.current{
+   font-family: $body-font;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 2rem;
+   line-height: 150%;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   color: $c-text2;
+   margin-bottom: 1.5rem;
+   
+}
+
+
+.selection-title{
+   font-family: $headers-font;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 5.7rem;
+   line-height: 120%;
+   color:$c-text;
+   max-width:45rem
+
+}
+
+.color-text{
+   font-family: $headers-font;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 5.7rem;
+   line-height: 120%;
+   color: $c-text2;
+}
+
+
+.section-text{
+   font-family: $body-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.8rem;
+   line-height: 160%;
+   color: $c-text;
+   max-width: 34.7rem;
+   margin-bottom: 3.5rem;
+   
+}
+
+
+.inner{
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 1.6rem;
+   line-height: 160%;
+   color:$c-primary;
+   background: #1B75BB;
+   border-radius: 5px;
+   padding: 1.5rem 3rem;
+   
+   &:hover{
+      background-color: $c-primary;
+      color:$c-text2;
+      border: 2px solid $c-secondary;  
+
+   }
+}

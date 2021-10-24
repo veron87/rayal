@@ -1,0 +1,17 @@
+section.sixth-section
+   div.container
+      div.client
+         h2.about What our client say
+         a(href="#").slogan-all View All 
+      div.reviews
+         mixin item(img, sign, title, description, text)
+            div.card
+               img(src=img, alt=features).foto
+               div 
+                  .item__sign=sign  
+                  .item__lorem=title
+                  .item__name=description
+                  .item__email=text
+         +item("./assets/imgs/foto-david.png","“","Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.","David lee","davidlee@")
+         +item("./assets/imgs/ravi.png","“","Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.","Ravi shankor","ravishankor@")
+         +item("./assets/imgs/thomas.png","“","Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.","Thomas lew","thomaslew@")

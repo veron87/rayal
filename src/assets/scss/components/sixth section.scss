@@ -1,0 +1,112 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+.client{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-top: 14.9rem;
+   margin-bottom:6.8rem;
+   
+}
+
+.about{
+   font-family:$headers-font;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 3.2rem;
+   line-height: 140%;
+   color:$c-text;
+   
+}
+
+
+.slogan-all{
+   font-family:$body-font ;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 2rem;
+   line-height: 160%;
+   color:$c-primary;
+   background:$c-secondary;
+   border-radius: 5px;
+   padding: 1.5rem 3rem;
+   border: 5px solid $c-secondary;
+
+
+   &:hover{
+      background-color: $c-primary;
+      color:$c-text2;  
+
+   }
+   
+}
+
+
+
+.reviews{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+  
+}
+
+
+.card{
+
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   box-sizing: border-box;
+   border-radius: 10px;
+   width: 36rem;
+   height: 32.5rem;
+   text-align: center;
+}
+
+
+.foto{
+
+      margin: 2.8rem 13.1rem 2.5rem;
+}
+.item__sign{
+   text-align: center;
+}
+
+
+.item__lorem{
+
+   font-family: $body-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.8rem;
+   line-height: 160%;
+   color: $c-text;
+   max-width:28.1rem;
+   margin-left: 3.9rem;
+   
+}
+
+
+
+.item__name{
+   font-family: $headers-font;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 2rem;
+   line-height: 150%;
+   text-align: center;
+   color: $c-text;
+   margin: 3rem 0 0.5rem;
+
+
+}
+
+
+.item__email{
+
+   font-family: $body-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.4rem;
+   line-height: 160%;
+   color: $c-text;
+}
